@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DAD9D9;
+}
+
+header {
+    text-align: center;
+    margin: auto;
+    background-color:#1266AC;
+    padding: 25px;
+    color: white;
+}
+
+.header-grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-grid>aside {
+    flex-basis: 25%;
+}
+
+.header-grid>article {
+    flex-basis: 75%;
+}
+
+.header-text>h1 {
+    font-size: 45px;
+}
+
+.header-text>p {
+    font-size: 20px;
+}
+
+/* h1 {
+    font-size: 25px;
+} */
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+.first-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-container>aside {
+    flex-basis: 45%;
+}
+
+.first-container>article {
+    flex-basis: 45%;
+}
+
+.related-courses {
+    border: 4px solid black;
+    padding-left: 10px;
+    margin: 2em;
+}
+
+.profiencies {
+    border: 4px solid black;
+    padding-left: 10px;
+    margin: 2em;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+#jobs {
+    border: 4px solid black;
+    padding: 15px;
+    width: 80%;
+}
+
+#UNL-logo {
+    text-align: center;
+}
+
+#LT-logo {
+    text-align: center;
+}
+
+.final-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+#Extracurriculars {
+    border: 4px solid black;
+    padding: 15px;
+    width: 80%;
+}
+
+
+ 
+footer {
+    background-color: #1266AC;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+footer>a {
+    color: white;
+}
+
+footer>a:hover {
+    color: black;
+    background-color: #DAD9D9;
+}
+
+footer>.copyright {
+    color: white;
+}
