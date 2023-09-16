@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Nolan Pettit</title>
+    <link rel="stylesheet" href="projects.css"> <!-- Link to your CSS file for styling -->
+</head>
+
+<body>
+    <header class="header-grid">
+        <!-- Header for the webpage body -->
+        <aside class="header-img">
+            <a href="https://etownbluejays.com/sports/mens-cross-country/roster/nolan-pettit/15089">
+                <img src="headshot.png" alt="Headshot" width="250">
+            </a>
+        </aside>
+        <article class="header-text">
+            <h1>Nolan Pettit</h1>
+            <p>Elizabethtown College student double-majoring in computer and data science, seeking a summer internship to apply and reinforce my education, with the possibility of transitioning to full-time employment after graduation. A team player with excellent communication skills who thrives when working with people of diverse backgrounds.</p>
+        </article>
+        <!-- Navigation Bar (you can copy this from your index.html) -->
+    </header>
+
+    <main>
+        <nav class="navigation-bar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+
+        <!-- Content specific to the Projects page -->
+        <section class="projects-section">
+            <h2>My Projects</h2>
+            <div id="UNL-project">
+                <h3>Synergistic Communications with High Resiliency</h3>
+                <h4>Links:</h4>
+                <ul>
+                    <li><a class="paper-link" href="full_paper_on_matlab_simulation.pdf">Full Research Paper</a></li>
+                    <!-- <br><br> -->
+                    <li><a class="lit-review-link" href="FINAL_LIT_REVIEW.pdf">Literature Review</a></li>
+                </ul>
+                <h4>Goals:</h4>
+                <ul id="UNL-goals">
+                    <li>Mitigate interference in wireless 5G communication between Unmanned Aerial Vehicles (UAVs) and users</li>
+                    <li>Create a MATLAB simulation that calculates interference in realistic scenarios</li>
+                </ul>
+                <h4>Methods Used:</h4>
+                <ul id="UNL-methods">
+                    <li>Collaborative Beamforming</li>
+                    <ul id="Beamforming">
+                        <li>Direct the signal in the direction of the desired user</li>
+                        <li>Decreases interference in terrestrial areas by providing a more direct route to a user</li>
+                    </ul>
+                    <li>Maximum Ratio Combining (MRC)</li>
+                    <ul id="MRC">
+                        <li>The weighted signals of each antenna are summed together into a combined signal</li>
+                        <li>This method helps maximize the received signal quality </li>
+                    </ul>
+                </ul>
+                <h4>Plots:</h4>
+                <div id="plots">
+                    <img id="beamforming-plot" src="Beamforming.jpg" alt="Beamforming Plot" width="500">
+                    <img id="MRC-plot" src="MRC_plot.jpg" alt="MRC Plot" width="515">
+                    <img id="Simulation-plot" src="Simulation.jpg" alt="Simulation" width="800">
+                </div>
+                </ul>
+                <h4>Conclusions</h4>
+                <ul id="Conclusions">
+                    <li>This is the first simulation that calculates interference in a realistic scenario</li>
+                    <li>The dynamic simulation accurately displays the relationship between distance and interference</li>
+                    <li>UAVs are becoming more effective with distributing reliable communication with high resiliency</li>   
+                </ul>
+                
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <a class="footer-link" href="https://www.linkedin.com/in/nolan-pettit/">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/NolanP2003">GitHub</a>
+        <p class="copyright">© 2023 Nolan Pettit @ CS310 - Elizabethtown College.</p>
+    </footer>
+</body>
+
+</html>
