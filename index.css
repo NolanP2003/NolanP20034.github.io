@@ -1,130 +1,94 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #DAD9D9;
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(to right, #1266AC, #DAD9D9, #231F20); */
+    background: linear-gradient(to right, #1266AC, #DAD9D9, #231F20);
+    margin: 0;
+    padding: 0;
 }
 
-header {
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#question {
+    padding-top: 25px;
     text-align: center;
+}
+
+button {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px auto;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result-container {
+    margin-top: 20px;
+}
+
+#result {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
     margin: auto;
-    background-color:#1266AC;
-    padding: 25px;
-    color: white;
-}
-
-.header-grid {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.header-grid>aside {
-    flex-basis: 25%;
-}
-
-.header-grid>article {
-    flex-basis: 75%;
-}
-
-.header-text>h1 {
-    font-size: 45px;
-}
-
-.header-text>p {
-    font-size: 20px;
-}
-
-/* h1 {
-    font-size: 25px;
-} */
-
-main {
-    width: 80%;
-    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 h3 {
+    margin: auto;
     text-align: center;
 }
 
-.first-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.first-container>aside {
-    flex-basis: 45%;
-}
-
-.first-container>article {
-    flex-basis: 45%;
-}
-
-.related-courses {
-    border: 4px solid black;
-    padding-left: 10px;
-    margin: 2em;
-}
-
-.profiencies {
-    border: 4px solid black;
-    padding-left: 10px;
-    margin: 2em;
-}
-
-.middle-container {
-    display: flex;
-    justify-content: space-evenly;
+#question-container,
+#result-container {
     align-items: center;
-    padding: 15px;
-    flex-wrap: wrap;
-}
-
-#jobs {
-    border: 4px solid black;
-    padding: 15px;
-    width: 80%;
-}
-
-#UNL-logo {
     text-align: center;
 }
 
-#LT-logo {
-    text-align: center;
+#result-image {
+    margin: auto;
+    
+    display: block;
+    animation: pulse 2s infinite;
 }
 
-.final-container {
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#logos-container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 15px;
-    flex-wrap: wrap;
-}
-
-#Extracurriculars {
-    border: 4px solid black;
-    padding: 15px;
-    width: 80%;
-}
-
-
- 
-footer {
-    background-color: #1266AC;
-    text-align: center;
+    justify-content: center;
     padding-top: 20px;
-    padding-bottom: 10px;
 }
 
-footer>a {
-    color: white;
+#logo {
+    width: 550px; 
 }
 
-footer>a:hover {
-    color: black;
-    background-color: #DAD9D9;
-}
 
-footer>.copyright {
-    color: white;
-}
